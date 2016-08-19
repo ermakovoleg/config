@@ -1,7 +1,7 @@
 # Create a global git commit hook
 
-git config --global init.templatedir '~/.git-templates'
+1. ```git config --global init.templatedir '~/.git-templates'```
 
-copy '.git-templates' to '~/'
+2. ```cp -a .git-templates ~/```
 
-chmod -R a+x ~/.git-templates/hooks/
+3. ```chmod -R a+x ~/.git-templates/hooks/```
